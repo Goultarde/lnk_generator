@@ -31,6 +31,8 @@ python3 lnk_generator.py --interactive
 ## Examples
 
 ```bash
+# Interactive mode (guided setup)
+python3 lnk_generator.py -i
 # PowerShell command
 python3 lnk_generator.py -c "Get-Process"
 
